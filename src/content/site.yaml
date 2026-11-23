@@ -1,0 +1,31 @@
+# ---------------------------------------------------------------------------
+# Global site settings. Empty values ("") are hidden on the website.
+# Items marked TO CONFIRM still need to be supplied by the consortium.
+# ---------------------------------------------------------------------------
+name: FireRisk
+tagline: Science for fire-resilient landscapes in Flanders
+description: >-
+  FireRisk is an interdisciplinary research project that strengthens wildfire
+  risk assessment, prevention and response in Flanders through high-resolution
+  geodata, fire spread modelling, AI-based visualisation and crisis governance.
+
+# Public URL of the production website, without trailing slash.
+# Used for the sitemap and social sharing cards. TO CONFIRM
+url: ""
+
+# General project e-mail address. TO CONFIRM
+email: ""
+
+# Partner id (see partners.yaml) of the coordinating institution.
+coordinator: PXL
+
+# Funding acknowledgement shown in the footer, e.g.
+# "FireRisk is funded by the Research Foundation – Flanders (FWO)." TO CONFIRM
+funding: ""
+
+# Social channels. Leave empty to hide.
+social:
+  linkedin: ""
+  bluesky: ""
+  x: ""
+  youtube: ""

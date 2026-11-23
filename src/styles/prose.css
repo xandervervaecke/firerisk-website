@@ -1,0 +1,93 @@
+/* Long-form Markdown content (articles, work packages, profiles) */
+.prose {
+  font-size: 1.0938rem;
+  line-height: 1.72;
+  color: #2b312d;
+}
+.prose > *:first-child {
+  margin-top: 0;
+}
+.prose h2 {
+  margin: 2.6em 0 0.8em;
+  font-size: clamp(1.6rem, 2.6vw, 2.1rem);
+  letter-spacing: -0.03em;
+  color: var(--ink);
+}
+.prose h3 {
+  margin: 2.2em 0 0.6em;
+  font-size: 1.25rem;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+}
+.prose p,
+.prose ul,
+.prose ol {
+  margin: 0 0 1.15em;
+}
+.prose ul,
+.prose ol {
+  padding-left: 1.25em;
+}
+.prose li {
+  margin-bottom: 0.45em;
+}
+.prose li::marker {
+  color: var(--fire-ink);
+}
+.prose a {
+  color: var(--forest-deep);
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: rgba(66, 107, 80, 0.4);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: text-decoration-color 0.2s, color 0.2s;
+}
+.prose a:hover {
+  color: var(--fire-ink);
+  text-decoration-color: currentColor;
+}
+.prose strong {
+  font-weight: 600;
+  color: var(--ink);
+}
+.prose blockquote {
+  margin: 2em 0;
+  padding: 0.25em 0 0.25em 1.4em;
+  border-left: 3px solid var(--fire);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+.prose img {
+  margin: 2em 0;
+  border-radius: var(--radius-lg);
+  width: 100%;
+}
+.prose hr {
+  margin: 3em 0;
+  border: 0;
+  border-top: 1px solid var(--line);
+}
+.prose code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  padding: 0.1em 0.35em;
+  background: var(--paper-2);
+  border-radius: 3px;
+}
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2em 0;
+  font-size: 0.95rem;
+}
+.prose th,
+.prose td {
+  text-align: left;
+  padding: 0.7em 0.8em;
+  border-bottom: 1px solid var(--line);
+}
+.prose th {
+  font-weight: 600;
+}

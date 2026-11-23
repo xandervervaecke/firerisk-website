@@ -1,0 +1,78 @@
+# ---------------------------------------------------------------------------
+# Consortium partners. The `id` is what work packages and team profiles use
+# (e.g. `lead: PXL`). `institution` groups research units of one university.
+# Expertise lines are taken from the consortium table (section 3.4) of the
+# FireRisk scientific project description.
+# ---------------------------------------------------------------------------
+- id: PXL
+  short: PXL
+  name: PXL University of Applied Sciences and Arts
+  institution: PXL University of Applied Sciences and Arts
+  institution_short: PXL
+  website: https://www.pxl.be
+  role: Project coordinator
+  expertise:
+    - Technical WUI definition and geospatial analysis
+    - Fuel characteristics and UAV-LiDAR
+    - Geospatial modelling, including cellular automata
+    - Operational decision-making, command post (CP-Ops) and post-incident briefings
+    - Training programmes for firefighters
+    - "Collaboration with end users: firefighters"
+
+- id: UH-CMK
+  short: UHasselt · CMK
+  name: Hasselt University, Centre for Environmental Sciences (CMK)
+  institution: Hasselt University
+  institution_short: UHasselt
+  website: https://www.uhasselt.be
+  expertise:
+    - Fire propagation and management scenario modelling
+    - Citizen awareness
+    - Impact modelling on heathland systems
+    - "Collaboration with end users: land managers"
+
+- id: UH-DFL
+  short: UHasselt · DFL
+  name: Hasselt University, Digital Future Lab (DFL)
+  institution: Hasselt University
+  institution_short: UHasselt
+  website: https://www.uhasselt.be/en/instituten-en/digitalfuturelab
+  expertise:
+    - VR visualisation
+    - User experience tracking
+
+- id: KU Leuven
+  short: KU Leuven
+  name: KU Leuven
+  institution: KU Leuven
+  institution_short: KU Leuven
+  website: https://www.kuleuven.be
+  expertise:
+    - Microclimate modelling, UAV multispectral sensing and CNNs
+    - Ecosystem modelling
+    - Fire weather indices
+    - Post-fire ecological monitoring
+
+- id: INBO
+  short: INBO
+  name: Research Institute for Nature and Forest (INBO)
+  institution: Research Institute for Nature and Forest (INBO)
+  institution_short: INBO
+  website: https://www.inbo.be
+  expertise:
+    - Satellite remote sensing
+    - Monitoring network development
+    - Land management systems and ecology
+    - Participatory processes and co-design of management scenarios
+    - Decision support and interpretation of soil samples
+    - "Collaboration with end users: policy-makers"
+
+- id: UA
+  short: UAntwerp
+  name: University of Antwerp
+  institution: University of Antwerp
+  institution_short: UAntwerp
+  website: https://www.uantwerpen.be
+  expertise:
+    - Governance and crisis management networks
+    - "Collaboration with end users: emergency services, fire services and (strategic) decision-makers"
