@@ -176,11 +176,11 @@ const segments = [
   display: grid;
   gap: clamp(2rem, 5vw, 4.5rem);
   align-items: center;
-  margin-top: clamp(2rem, 5vw, 3.5rem);
+  margin-top: clamp(1.5rem, min(5vw, 5vh), 3.5rem);
 }
 .diagram {
   width: 100%;
-  max-width: 460px;
+  max-width: min(440px, 56vh);
   margin-inline: auto;
   color: var(--on-dark-muted);
   overflow: visible;
@@ -247,7 +247,7 @@ const segments = [
   color: var(--gold);
 }
 .h3 {
-  font-size: clamp(2rem, 3.6vw, 2.8rem);
+  font-size: clamp(1.8rem, min(3.4vw, 5.4vh), 2.6rem);
   letter-spacing: -0.035em;
 }
 .panel-text {
@@ -267,7 +267,7 @@ const segments = [
   grid-template-columns: 3.2rem 1fr auto auto;
   align-items: center;
   gap: 1rem;
-  padding: 1rem 0.25rem;
+  padding: clamp(0.7rem, 1.8vh, 1rem) 0.25rem;
   border-bottom: 1px solid var(--line-dark);
   transition: background 0.25s, padding 0.35s var(--ease);
 }

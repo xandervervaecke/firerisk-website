@@ -46,7 +46,7 @@ function contour(i) {
 <style scoped>
 .page-hero {
   position: relative;
-  padding: calc(var(--header-h) + clamp(4rem, 10vw, 7.5rem)) 0 clamp(3.5rem, 7vw, 5.5rem);
+  padding: calc(var(--header-h) + clamp(2.5rem, min(9vw, 11vh), 7rem)) 0 clamp(2.5rem, min(6vw, 8vh), 5rem);
   background: var(--charcoal);
   overflow: hidden;
   isolation: isolate;
@@ -55,7 +55,7 @@ function contour(i) {
   padding-bottom: clamp(2.5rem, 5vw, 4rem);
 }
 .page-hero.has-image {
-  min-height: min(78vh, 720px);
+  min-height: clamp(420px, 68vh, 720px);
   display: flex;
   align-items: flex-end;
 }
@@ -116,7 +116,7 @@ function contour(i) {
   margin-bottom: 1.5rem;
 }
 h1 {
-  max-width: 18ch;
+  max-width: 22ch;
 }
 .lead {
   margin-top: 1.5rem;

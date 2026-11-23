@@ -212,7 +212,8 @@ const objectives = [
   border-radius: var(--radius-lg);
   overflow: hidden;
   aspect-ratio: 4 / 5;
-  max-height: 640px;
+  max-height: min(640px, 72vh);
+  width: 100%;
 }
 .about-figure img {
   width: 100%;
@@ -236,7 +237,7 @@ const objectives = [
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
   gap: 1px;
-  margin: clamp(3.5rem, 7vw, 6rem) 0 0;
+  margin: clamp(2.5rem, min(6vw, 8vh), 5rem) 0 0;
   padding: 0;
   list-style: none;
   background: var(--line);
@@ -262,7 +263,7 @@ const objectives = [
 }
 .obj-icon {
   color: var(--fire-ink);
-  margin-bottom: 2.5rem;
+  margin-bottom: clamp(1.25rem, 4vh, 2.5rem);
 }
 .objectives h3 {
   font-size: 1.2rem;
@@ -317,8 +318,8 @@ const objectives = [
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
   gap: clamp(1.5rem, 3vw, 3rem);
-  margin-top: clamp(3.5rem, 7vw, 5.5rem);
-  padding-top: clamp(2rem, 4vw, 3rem);
+  margin-top: clamp(2.5rem, min(6vw, 8vh), 4.5rem);
+  padding-top: clamp(1.75rem, 3.5vh, 3rem);
   border-top: 1px solid var(--line-dark);
 }
 .fact-num {
@@ -393,7 +394,7 @@ const objectives = [
 /* ---------- CTA ---------- */
 .cta {
   position: relative;
-  padding-block: clamp(6rem, 14vw, 11rem);
+  padding-block: clamp(4.5rem, min(12vw, 16vh), 10rem);
   background: var(--charcoal);
   overflow: hidden;
   isolation: isolate;

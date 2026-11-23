@@ -86,8 +86,8 @@ function toggle() {
   flex-direction: column;
   justify-content: flex-end;
   min-height: 100svh;
-  min-height: max(640px, 100svh);
-  padding-top: calc(var(--header-h) + 3rem);
+  min-height: max(560px, 100svh);
+  padding-top: calc(var(--header-h) + 1rem);
   background: var(--charcoal);
   overflow: hidden;
   isolation: isolate;
@@ -124,11 +124,11 @@ function toggle() {
   padding-block: clamp(2rem, 6vh, 4rem);
 }
 .eyebrow {
-  margin-bottom: 1.5rem;
+  margin-bottom: clamp(0.9rem, 2.4vh, 1.5rem);
 }
 h1 {
   max-width: 17ch;
-  font-size: clamp(2.6rem, 5.6vw, 5rem);
+  font-size: clamp(2.3rem, min(5.4vw, 8.2vh), 5rem);
 }
 .line {
   display: block;
@@ -140,20 +140,20 @@ h1 {
   color: transparent;
 }
 .lead {
-  margin-top: 1.75rem;
+  margin-top: clamp(1rem, 2.8vh, 1.75rem);
   max-width: 54ch;
 }
 .actions {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
-  margin-top: 2.25rem;
+  margin-top: clamp(1.25rem, 3.6vh, 2.25rem);
 }
 .hero-foot {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-block: 1.25rem;
+  padding-block: clamp(0.75rem, 2vh, 1.25rem);
   border-top: 1px solid var(--line-dark);
 }
 .scroll-cue {

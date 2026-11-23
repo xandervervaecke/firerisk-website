@@ -22,7 +22,7 @@ defineProps({
 
 <style scoped>
 .section-header {
-  margin-bottom: clamp(2.5rem, 5vw, 4rem);
+  margin-bottom: clamp(1.75rem, min(5vw, 6vh), 3.5rem);
 }
 .section-header .eyebrow {
   margin-bottom: 1.25rem;
