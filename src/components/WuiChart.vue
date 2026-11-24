@@ -8,7 +8,7 @@
         <span class="value">{{ row.value.toFixed(1) }}%</span>
       </li>
     </ul>
-    <p class="source">Source: Bar-Massada et al. (2023), as cited in the FireRisk project description.</p>
+    <p class="source">Source: Bar-Massada et al. (2023)</p>
   </figure>
 </template>
 

@@ -63,6 +63,17 @@
       </div>
     </section>
 
+    <section id="message" class="section tight message" aria-labelledby="message-title">
+      <div class="container message-grid">
+        <div class="message-intro">
+          <p class="eyebrow">Send a message</p>
+          <h2 id="message-title" class="h3">Write to the project team.</h2>
+          <p>Fill in the form and your message goes straight to the FireRisk inbox. We usually reply within a few working days.</p>
+        </div>
+        <ContactForm />
+      </div>
+    </section>
+
     <section id="partners" class="section tight partners bg-paper-2" aria-labelledby="partners-title">
       <div class="container">
         <header class="partners-head">
@@ -112,6 +123,7 @@ import { site, partners, workPackages, getPartner } from '@/content'
 import { usePageMeta } from '@/composables/usePageMeta'
 import PageHero from '@/components/PageHero.vue'
 import Icon from '@/components/Icon.vue'
+import ContactForm from '@/components/ContactForm.vue'
 
 usePageMeta({
   title: 'Contact',
@@ -141,6 +153,30 @@ const groups = [
 </script>
 
 <style scoped>
+.message {
+  border-top: 1px solid var(--line);
+}
+.message-grid {
+  display: grid;
+  gap: 2rem clamp(2rem, 5vw, 5rem);
+}
+@media (min-width: 900px) {
+  .message-grid {
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.4fr);
+  }
+}
+.message-intro .eyebrow {
+  margin-bottom: 1rem;
+}
+.message-intro .h3 {
+  font-size: clamp(1.7rem, 3vw, 2.4rem);
+  letter-spacing: -0.035em;
+  margin-bottom: 1rem;
+}
+.message-intro p:last-child {
+  color: var(--ink-muted);
+  max-width: 40ch;
+}
 .contact-grid {
   display: grid;
   gap: clamp(2rem, 5vw, 5rem);

@@ -14,7 +14,15 @@ description: >-
 url: ""
 
 # General project e-mail address. TO CONFIRM
+# The contact form sends its messages to this address (via formsubmit.co).
+# The first message sent through the form triggers a one-time activation
+# e-mail to this address: click the link in it, then the form works.
 email: ""
+
+# Optional: a different endpoint for the contact form, e.g. the random
+# formsubmit.co alias you get after activation (hides the e-mail address
+# from spam bots), or a Formspree URL. Leave empty to use "email".
+contact_form: ""
 
 # Partner id (see partners.yaml) of the coordinating institution.
 coordinator: PXL

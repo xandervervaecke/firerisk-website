@@ -64,8 +64,8 @@
 
         <div class="facts">
           <div class="fact" v-reveal>
-            <p class="fact-num">63 <span>→</span> 68–78<small>million</small></p>
-            <p>Europeans exposed to wildfire today, and projected under 1.5 °C to 3 °C of global warming.</p>
+            <p class="fact-num">68–78<small>million</small></p>
+            <p>Europeans projected to be exposed to wildfire under 1.5 °C to 3 °C of global warming, up from 63 million today.</p>
           </div>
           <div class="fact" v-reveal="80">
             <p class="fact-num">+30<small>°C</small></p>

@@ -308,7 +308,7 @@ All project facts on the site come from the *FireRisk scientific project descrip
 
 | What | Where | Status on the site |
 |---|---|---|
-| Project e-mail address | `site.yaml → email` | "To be announced" on Contact |
+| Project e-mail address | `site.yaml → email` | "To be announced" on Contact, contact form disabled. Once set, the form sends messages to this address via formsubmit.co. The first message triggers a one-time activation e-mail: click the link in it and the form works. |
 | Production URL / domain | `site.yaml → url` | Needed for sitemap, canonical and absolute social-card URLs |
 | Funding acknowledgement (the description refers to FWO reporting guidelines — please confirm the exact funder line) | `site.yaml → funding` | Hidden |
 | Social media channels | `site.yaml → social` | Hidden |
