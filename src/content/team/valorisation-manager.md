@@ -1,11 +1,11 @@
 ---
-name: ""
+name: "Nele Witters"
 position: "Valorisation manager"
 partner: UH-CMK
-photo: ""
-email: ""
+photo: "/images/team/NeleWitters.jpg"
+email: "nele.witters@uhasselt.be"
 website: ""
-linkedin: ""
+linkedin: "https://www.linkedin.com/in/nele-witters-55b2954/"
 work_packages: [WP9]
 order: 2
 placeholder: true

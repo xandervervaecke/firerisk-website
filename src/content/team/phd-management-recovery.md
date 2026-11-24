@@ -1,9 +1,9 @@
 ---
-name: ""
+name: "Martin Rüegg"
 position: "Doctoral researcher, land management & post-fire recovery"
 partner: KU Leuven
 photo: ""
-email: ""
+email: "martin.rueegg@kuleuven.be"
 website: ""
 linkedin: ""
 work_packages: [WP3, WP7]

@@ -1,11 +1,11 @@
 ---
-name: ""
+name: "Zoë Hollanders"
 position: "Doctoral researcher, operational decision-making & crisis governance"
 partner: UA
-photo: ""
-email: ""
+photo: "/images/team/ZoeHollanders.jpg"
+email: "zoe.hollanders@uantwerpen.be"
 website: ""
-linkedin: ""
+linkedin: "https://www.linkedin.com/in/zo%C3%AB-hollanders-972609334/"
 work_packages: [WP5, WP8]
 order: 13
 placeholder: true

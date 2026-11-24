@@ -1,11 +1,11 @@
 ---
-name: ""
+name: "Xander Vervaecke"
 position: "Doctoral researcher, AI visualisation & immersive training"
 partner: UH-DFL
-photo: ""
-email: ""
+photo: "/images/team/XanderVervaecke.jpg"
+email: "xander.vervaecke@uhasselt.be"
 website: ""
-linkedin: ""
+linkedin: "https://www.linkedin.com/in/xander-vervaecke/"
 work_packages: [WP6]
 order: 14
 placeholder: true

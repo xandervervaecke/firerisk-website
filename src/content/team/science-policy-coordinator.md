@@ -1,11 +1,11 @@
 ---
-name: ""
+name: "Lisa Partoens"
 position: "Science–policy coordinator"
 partner: INBO
-photo: ""
-email: ""
+photo: "/images/team/LisaPartoens.jpg"
+email: "lisa.partoens@inbo.be"
 website: ""
-linkedin: ""
+linkedin: "https://www.linkedin.com/in/lisa-partoens-95042a158/"
 work_packages: [WP1, WP2, WP3, WP7, WP9]
 order: 3
 placeholder: true

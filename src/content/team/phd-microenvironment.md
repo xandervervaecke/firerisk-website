@@ -1,11 +1,11 @@
 ---
-name: ""
+name: "Alexander Van Hout"
 position: "Doctoral researcher, microenvironment & fire weather"
 partner: KU Leuven
-photo: ""
-email: ""
+photo: "/images/team/AlexanderVanHout.jpg"
+email: "alexander.vanhout@kuleuven.be"
 website: ""
-linkedin: ""
+linkedin: "https://www.linkedin.com/in/alexander-van-hout-2b4857305/"
 work_packages: [WP2]
 order: 11
 placeholder: true
