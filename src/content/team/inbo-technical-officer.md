@@ -1,11 +1,11 @@
 ---
-name: ""
+name: "Marijke Thoonen"
 position: "Technical officer"
 partner: INBO
-photo: ""
-email: ""
+photo: "/images/team/MarijkeThoonen.jpg"
+email: "marijke.thoonen@inbo.be"
 website: ""
-linkedin: ""
+linkedin: "https://www.linkedin.com/in/marijke-thoonen-0b871658/"
 work_packages: [WP7]
 order: 6
 placeholder: true

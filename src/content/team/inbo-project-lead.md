@@ -1,11 +1,11 @@
 ---
-name: ""
+name: "Stien Heremans"
 position: "Project lead"
 partner: INBO
-photo: ""
-email: ""
+photo: "/images/team/StienHeremans.jpg"
+email: "stien.heremans@inbo.be"
 website: ""
-linkedin: ""
+linkedin: "https://www.linkedin.com/in/stien-heremans-remote-sensing-environment/"
 work_packages: [WP3, WP7]
 order: 5
 placeholder: true
